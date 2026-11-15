@@ -1,0 +1,152 @@
+{
+  "extName": {
+    "message": "RestockCheck – Store Pickup Stock Alerts"
+  },
+  "extDescription": {
+    "message": "Free alerts when an iPhone or Mac is back in stock for pickup at the Apple Store you pick. Checks run in your browser."
+  },
+  "notifyTitle": {
+    "message": "$NAME$ is in stock for pickup",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "notifyBody": {
+    "message": "$CONFIG$ at $STORE$. Reserve on Apple now, stock can sell out in minutes.",
+    "placeholders": {
+      "config": {
+        "content": "$1"
+      },
+      "store": {
+        "content": "$2"
+      }
+    }
+  },
+  "notifyOpen": {
+    "message": "Reserve on Apple"
+  },
+  "notifyGotIt": {
+    "message": "Got it, stop"
+  },
+  "testStore": {
+    "message": "Test store"
+  },
+  "addTitle": {
+    "message": "Add a watch"
+  },
+  "country": {
+    "message": "Country or region"
+  },
+  "model": {
+    "message": "Model"
+  },
+  "color": {
+    "message": "Color"
+  },
+  "storage": {
+    "message": "Storage"
+  },
+  "store": {
+    "message": "Apple Store"
+  },
+  "storeSearch": {
+    "message": "City, store or postcode (US: ZIP)"
+  },
+  "add": {
+    "message": "Watch this"
+  },
+  "empty": {
+    "message": "Nothing watched yet. Pick a model and an Apple Store below."
+  },
+  "inStock": {
+    "message": "In stock"
+  },
+  "outOfStock": {
+    "message": "Not available"
+  },
+  "unknown": {
+    "message": "Not confirmed"
+  },
+  "pending": {
+    "message": "Waiting for first check"
+  },
+  "checkedAgo": {
+    "message": "checked $AGO$",
+    "placeholders": {
+      "ago": {
+        "content": "$1"
+      }
+    }
+  },
+  "open": {
+    "message": "Reserve"
+  },
+  "pause": {
+    "message": "Pause"
+  },
+  "resume": {
+    "message": "Resume"
+  },
+  "remove": {
+    "message": "Remove"
+  },
+  "nextCheck": {
+    "message": "Next check $WHEN$",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      }
+    }
+  },
+  "checkNow": {
+    "message": "Check now"
+  },
+  "cooldown": {
+    "message": "Apple is limiting requests from your network. Paused until $TIME$.",
+    "placeholders": {
+      "time": {
+        "content": "$1"
+      }
+    }
+  },
+  "interval": {
+    "message": "Check every"
+  },
+  "sound": {
+    "message": "Sound"
+  },
+  "testAlert": {
+    "message": "Test alert"
+  },
+  "upgradeTitle": {
+    "message": "Need it faster?"
+  },
+  "upgradeBody": {
+    "message": "RestockCheck servers check every 5 seconds and alert by email and phone, even when this computer is off."
+  },
+  "upgradeCta": {
+    "message": "Get 5-second alerts"
+  },
+  "limit": {
+    "message": "You can watch up to $MAX$ items in the extension.",
+    "placeholders": {
+      "max": {
+        "content": "$1"
+      }
+    }
+  },
+  "loading": {
+    "message": "Loading…"
+  },
+  "noStores": {
+    "message": "No matching stores"
+  },
+  "privacy": {
+    "message": "Stock checks go directly to Apple. Store search uses RestockCheck public APIs. No third-party analytics or ads."
+  },
+  "duplicate": {
+    "message": "Already watching this."
+  }
+}

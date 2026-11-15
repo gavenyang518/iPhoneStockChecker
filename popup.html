@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>RestockCheck</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <header>
+      <a href="https://restockcheck.com" target="_blank" rel="noopener" class="brand" title="RestockCheck">
+        <img src="icons/icon-32.png" alt="" width="22" height="22" />
+        <strong>RestockCheck</strong>
+      </a>
+      <span id="next" class="muted"></span>
+      <button id="checkNow" class="link" data-i18n="checkNow"></button>
+    </header>
+
+    <div id="cooldown" class="banner warn" hidden></div>
+
+    <section id="list" aria-live="polite"></section>
+
+    <details id="addBox">
+      <summary data-i18n="addTitle"></summary>
+      <form id="addForm">
+        <label><span data-i18n="country"></span><select id="country"></select></label>
+        <label><span data-i18n="model"></span><select id="model"></select></label>
+        <div class="row">
+          <label><span data-i18n="color"></span><select id="color"></select></label>
+          <label><span data-i18n="storage"></span><select id="storage"></select></label>
+        </div>
+        <label>
+          <span data-i18n="store"></span>
+          <input id="storeSearch" type="search" autocomplete="off" />
+          <select id="store" size="5"></select>
+        </label>
+        <p id="formMsg" class="muted small" role="status"></p>
+        <button type="submit" class="primary" data-i18n="add"></button>
+      </form>
+    </details>
+
+    <section class="settings">
+      <label>
+        <span data-i18n="interval"></span>
+        <select id="interval">
+          <option value="0.5">30s</option>
+          <option value="1">1 min</option>
+          <option value="2">2 min</option>
+          <option value="5">5 min</option>
+        </select>
+      </label>
+      <label class="inline"><input id="sound" type="checkbox" /> <span data-i18n="sound"></span></label>
+      <button id="test" class="link" data-i18n="testAlert"></button>
+    </section>
+
+    <section class="upgrade">
+      <strong data-i18n="upgradeTitle"></strong>
+      <p data-i18n="upgradeBody"></p>
+      <a id="upgrade" target="_blank" rel="noopener" class="primary" data-i18n="upgradeCta"></a>
+    </section>
+
+    <footer class="footer muted small">
+      <span data-i18n="privacy"></span>
+      <a href="https://restockcheck.com" target="_blank" rel="noopener">restockcheck.com</a>
+    </footer>
+    <script type="module" src="popup.js"></script>
+  </body>
+</html>

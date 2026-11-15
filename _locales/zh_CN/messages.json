@@ -1,0 +1,152 @@
+{
+  "extName": {
+    "message": "RestockCheck – Apple Store 自提到货提醒"
+  },
+  "extDescription": {
+    "message": "免费监控你选定的 Apple Store 门店，iPhone、Mac 一有自提现货就提醒你。检查直接在你的浏览器里进行。"
+  },
+  "notifyTitle": {
+    "message": "$NAME$ 有自提现货了",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "notifyBody": {
+    "message": "$CONFIG$ · $STORE$。现在就去 Apple 预约，热门配置几分钟内可能售罄。",
+    "placeholders": {
+      "config": {
+        "content": "$1"
+      },
+      "store": {
+        "content": "$2"
+      }
+    }
+  },
+  "notifyOpen": {
+    "message": "去 Apple 预约"
+  },
+  "notifyGotIt": {
+    "message": "已买到，停止"
+  },
+  "testStore": {
+    "message": "测试门店"
+  },
+  "addTitle": {
+    "message": "添加监控"
+  },
+  "country": {
+    "message": "国家或地区"
+  },
+  "model": {
+    "message": "机型"
+  },
+  "color": {
+    "message": "颜色"
+  },
+  "storage": {
+    "message": "容量"
+  },
+  "store": {
+    "message": "Apple Store 门店"
+  },
+  "storeSearch": {
+    "message": "城市、店名或邮编（美国用 ZIP）"
+  },
+  "add": {
+    "message": "开始监控"
+  },
+  "empty": {
+    "message": "还没有监控。在下方选择机型和门店即可。"
+  },
+  "inStock": {
+    "message": "有现货"
+  },
+  "outOfStock": {
+    "message": "暂无现货"
+  },
+  "unknown": {
+    "message": "暂未确认"
+  },
+  "pending": {
+    "message": "等待首次检查"
+  },
+  "checkedAgo": {
+    "message": "$AGO$检查",
+    "placeholders": {
+      "ago": {
+        "content": "$1"
+      }
+    }
+  },
+  "open": {
+    "message": "去预约"
+  },
+  "pause": {
+    "message": "暂停"
+  },
+  "resume": {
+    "message": "恢复"
+  },
+  "remove": {
+    "message": "删除"
+  },
+  "nextCheck": {
+    "message": "下次检查 $WHEN$",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      }
+    }
+  },
+  "checkNow": {
+    "message": "立即检查"
+  },
+  "cooldown": {
+    "message": "Apple 正在限制你所在网络的请求，已暂停到 $TIME$。",
+    "placeholders": {
+      "time": {
+        "content": "$1"
+      }
+    }
+  },
+  "interval": {
+    "message": "检查间隔"
+  },
+  "sound": {
+    "message": "提示音"
+  },
+  "testAlert": {
+    "message": "测试提醒"
+  },
+  "upgradeTitle": {
+    "message": "需要更快？"
+  },
+  "upgradeBody": {
+    "message": "RestockCheck 服务器每 5 秒检查一次，到货发邮件和手机推送，电脑关机也能收到。"
+  },
+  "upgradeCta": {
+    "message": "开启 5 秒提醒"
+  },
+  "limit": {
+    "message": "插件最多同时监控 $MAX$ 个配置。",
+    "placeholders": {
+      "max": {
+        "content": "$1"
+      }
+    }
+  },
+  "loading": {
+    "message": "加载中…"
+  },
+  "noStores": {
+    "message": "没有匹配的门店"
+  },
+  "privacy": {
+    "message": "检查直连 Apple，门店搜索查询 RestockCheck 公开接口，无第三方统计或广告。"
+  },
+  "duplicate": {
+    "message": "已经在监控这个配置了。"
+  }
+}
