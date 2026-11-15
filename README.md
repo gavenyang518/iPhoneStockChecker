@@ -4,6 +4,7 @@ Open-source browser extension that watches Apple Store in-store pickup availabil
 
 - Website: https://restockcheck.com
 - Chrome Web Store: https://chromewebstore.google.com/detail/odpppmkaeifciiahdneccibdigdkjfnh
+- GitHub: https://github.com/gavenyang518/iPhoneStockChecker
 - [中文说明见下方](#中文说明)
 
 Need alerts while your computer is off? Use https://restockcheck.com (server checks about every 5 s for the stores you choose, email/phone alerts).
@@ -76,6 +77,7 @@ Not affiliated with Apple. RestockCheck is an independent tool. Apple and Apple 
 
 - 官方网站: https://restockcheck.com
 - Chrome 应用商店: https://chromewebstore.google.com/detail/odpppmkaeifciiahdneccibdigdkjfnh
+- GitHub 开源仓库: https://github.com/gavenyang518/iPhoneStockChecker
 
 需要电脑关机也能收到提醒？使用 https://restockcheck.com（服务器约每 5 秒检查你所选的直营店，支持邮件和手机推送提醒）。
 

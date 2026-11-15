@@ -21,6 +21,7 @@ Waiting for an iPhone to be available for in-store pickup? Pick the exact model,
 • Clear states: in stock, not available, or not confirmed (a timeout is never shown as "out of stock")
 • Alerts only when stock appears, with "Reserve on Apple" and "Got it, stop" buttons
 • English and 简体中文
+• Open source (MIT): https://github.com/gavenyang518/iPhoneStockChecker
 • Stock checks run in your browser: stock checks go directly from your browser to Apple; the city/ZIP you type is sent to restockcheck.com public APIs to look up stores; only the Upgrade link carries the selected configuration and utm parameters; no account, no third-party analytics or ads
 
 Need alerts while your computer is off? Use https://restockcheck.com (server checks about every 5 s for the stores you choose, email/phone alerts)
@@ -35,6 +36,7 @@ Not affiliated with Apple Inc.
 • 每 30 秒到 5 分钟检查一次，安全的请求额度不影响你正常浏览 Apple 官网
 • 状态清楚：有现货 / 暂无现货 / 暂未确认，超时绝不显示成无货
 • 只在到货时提醒，通知里可直接"去 Apple 预约"或"已买到，停止"
+• 开源 (MIT): https://github.com/gavenyang518/iPhoneStockChecker
 • 浏览器直查：库存检查直接由浏览器发往 Apple；所输入的城市/邮编发送至 restockcheck.com 公开接口查询就近门店；仅升级链接携带所选配置与 utm 参数；无需账号，无第三方统计或广告
 
 电脑关机也想收到提醒？使用 https://restockcheck.com（服务器约每 5 秒检查你所选的直营店，支持邮件和手机推送提醒）。
